@@ -350,7 +350,6 @@ body{
 .ca-column ul{
     padding: 0 80px;
     list-style-position: inside;
-    list-style-type: square;
     }
 
 .ca-column li{
@@ -553,6 +552,30 @@ body{
     opacity: 1
 }
 
+
+/* Responsive */
+
+@media all and (max-width: 575px) {
+
+    .ca-portraitContainer{
+        width: 80%
+        }
+
+    .ca-columnP, .ca-columnPNoDecoration {
+        display: block;
+        width:80%;
+        }
+
+      .ca-column{
+        width:100%;
+        min-width: 100%;
+        display: block;
+        padding: 0 10px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        }
+    
+}
 
 
 
