@@ -55,7 +55,7 @@ p{
     line-height: 50px;
     }
 
-.sectionNav a {
+.sectionNav ul a {
     display: block;
     width: 100%;
     height: 50px;
@@ -70,8 +70,11 @@ p{
 .sectionNav .itemSelected {
     color: #2E9B8F;
     cursor: default
-}
+    }
 
+.SectionNav #iconMenu{
+    display: none
+    }
 
 
 
@@ -559,15 +562,50 @@ p{
 /* Responsive */
 
 @media all and (max-width: 575px) {
+    
+    
+    .sectionNav {  
+        min-height: 50px;
+        }
+    
+    .sectionNav ul{
+        display: none;
+        }
+    
+    .sectionNav ul.visible{
+        display: block;
+        }
+    
+    .sectionNav li {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 30px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 50px;
+        }
 
+    #iconMenu {
+        display: block;
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        padding: 0 30px;
+        background-image: url(ui-img/menu.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+        cursor: pointer
+        }
+    
     .ca-portraitContainer{
         width: 100%;
         text-align: center
         }
     
     .ca-portraitContainer img{
-        max-width: 80%;
-        
+        max-width: 80%;      
         }
 
     .ca-columnP, .ca-columnPNoDecoration {
