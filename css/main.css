@@ -564,7 +564,8 @@ p{
 @media all and (max-width: 575px) {
     
     
-    .sectionNav {  
+    .sectionNav {
+        height: auto;
         min-height: 50px;
         }
     
