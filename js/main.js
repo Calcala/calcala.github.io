@@ -71,6 +71,7 @@ function showHideMenu (){
 
 function showHideList (){
    $menuList.toggleClass( "visible" )
+   iniatilizeOffset ()
 }
 
 function navigateToSection (event) {
