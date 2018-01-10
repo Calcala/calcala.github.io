@@ -465,7 +465,7 @@ p{
     margin-bottom: 30px;
     }
 
-.ca-careerItem p {
+.ca-careerItem p, .ca-careerItem time {
     font-size: 16px;
     color: #BBDEDB;
     font-family: 'Lato', sans-serif;
